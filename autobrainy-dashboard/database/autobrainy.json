@@ -1,0 +1,97 @@
+{
+  "users": [],
+  "leads": [
+    {
+      "id": "3cd1f6f5-f42a-487e-b86a-15206d9bf3de",
+      "name": "nikhil",
+      "mobile": "121213131",
+      "email": null,
+      "source": "Website",
+      "status": "Cold",
+      "city": "Dhule",
+      "tags": [],
+      "optedIn": true,
+      "lastMessageAt": null,
+      "notes": null,
+      "createdAt": "2026-06-04T12:44:03.929Z",
+      "updatedAt": "2026-06-04T12:44:03.929Z"
+    }
+  ],
+  "campaigns": [],
+  "webhooks": [
+    {
+      "id": "576fb6cd-83d1-4f54-925b-7e69a89bf4cf",
+      "name": "bhjk",
+      "url": "https://nikhil5765.app.n8n.cloud/webhook-test/autobrainy-leads",
+      "events": [
+        "dewdw"
+      ],
+      "secret": "65175d200ba9c1dce27356d822445ebda8fb09dcce3875e9efb36799fbca7c08",
+      "active": true,
+      "lastTriggered": null,
+      "createdAt": "2026-06-06T10:23:34.757Z",
+      "updatedAt": "2026-06-06T10:23:34.757Z"
+    },
+    {
+      "id": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
+      "name": "abhi",
+      "url": "https://nikhil5765.app.n8n.cloud/webhook/autobrainy-leads",
+      "events": [
+        "cac"
+      ],
+      "secret": "4ce2689f07a43e0ae13a4604db63e5e0f25bc37877dabc88ed6fb00ef9f1ead6",
+      "active": true,
+      "lastTriggered": "2026-06-06T10:25:40.908Z",
+      "createdAt": "2026-06-06T10:25:35.603Z",
+      "updatedAt": "2026-06-06T10:25:35.603Z"
+    },
+    {
+      "id": "91de1bed-75f9-4d26-8095-a19b980b99a7",
+      "name": "tinku",
+      "url": "https://nikhil5765.app.n8n.cloud/webhook/autobrainy-leads",
+      "events": [
+        "fest"
+      ],
+      "secret": "657bbda0b26916586d6a3491916cf4e85ff0d7749f8cd207b5a50ea62265356b",
+      "active": true,
+      "lastTriggered": "2026-06-06T11:00:38.368Z",
+      "createdAt": "2026-06-06T10:59:37.929Z",
+      "updatedAt": "2026-06-06T10:59:37.929Z"
+    }
+  ],
+  "webhook_logs": [
+    {
+      "id": "ee2387af-0fea-47ae-9f87-3697d55fc5c2",
+      "webhookId": "576fb6cd-83d1-4f54-925b-7e69a89bf4cf",
+      "event": "manual_trigger",
+      "payload": "{\"test\":true}",
+      "status": 404,
+      "response": "{\"code\":404,\"message\":\"The requested webhook \\\"autobrainy-leads\\\" is not registered.\",\"hint\":\"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)\"}",
+      "createdAt": "2026-06-06T10:23:40.098Z"
+    },
+    {
+      "id": "9ae67c76-60a2-4f2e-ac42-35b2fceebcf3",
+      "webhookId": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
+      "event": "manual_trigger",
+      "payload": "{\"test\":true}",
+      "status": 200,
+      "response": "{\"success\":true,\"message\":\"Lead saved successfully\"}",
+      "createdAt": "2026-06-06T10:25:40.908Z"
+    },
+    {
+      "id": "307319b4-2ec6-42f3-86c6-b9eacea3f66d",
+      "webhookId": "91de1bed-75f9-4d26-8095-a19b980b99a7",
+      "event": "manual_trigger",
+      "payload": "{\"test\":true}",
+      "status": 200,
+      "response": "{\"success\":true,\"message\":\"Lead saved successfully\"}",
+      "createdAt": "2026-06-06T11:00:38.368Z"
+    }
+  ],
+  "whatsappSettings": {
+    "phoneNumberId": "1044752928714232",
+    "accessToken": "EAAPf2uxEVQwBRnVkV5CcUGGslGK13oN6uPlRywcd1ZAHiwbd4RxndSbmuRgdXY7AcyZCzJpZBxd4jg6ODCmiKZCGNqutDriouFepyu5d1QLIDUaUMtrrTZC6ZAZBH8cvngFjBsKFNYWSxkze2MxMGZCEZBYVjzgotUZB7WZAHlCDexXNZCLf48QyurEs1AgOiiRMvgZDZD",
+    "businessAccountId": "881002244556544",
+    "webhookVerifyToken": "nikhil_bot_2026"
+  }
+}
