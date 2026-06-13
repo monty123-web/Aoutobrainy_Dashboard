@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { readDB, writeDB } = require("../db");
 
+// Get WhatsApp Settings
 router.get("/whatsapp", (req, res) => {
   const db = readDB();
 
@@ -15,6 +16,7 @@ router.get("/whatsapp", (req, res) => {
   );
 });
 
+// Save WhatsApp Settings
 router.post("/whatsapp", (req, res) => {
   const db = readDB();
 

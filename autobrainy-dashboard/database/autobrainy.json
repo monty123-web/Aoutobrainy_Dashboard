@@ -20,19 +20,6 @@
   "campaigns": [],
   "webhooks": [
     {
-      "id": "576fb6cd-83d1-4f54-925b-7e69a89bf4cf",
-      "name": "bhjk",
-      "url": "https://nikhil5765.app.n8n.cloud/webhook-test/autobrainy-leads",
-      "events": [
-        "dewdw"
-      ],
-      "secret": "65175d200ba9c1dce27356d822445ebda8fb09dcce3875e9efb36799fbca7c08",
-      "active": true,
-      "lastTriggered": null,
-      "createdAt": "2026-06-06T10:23:34.757Z",
-      "updatedAt": "2026-06-06T10:23:34.757Z"
-    },
-    {
       "id": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
       "name": "abhi",
       "url": "https://nikhil5765.app.n8n.cloud/webhook/autobrainy-leads",
@@ -41,7 +28,7 @@
       ],
       "secret": "4ce2689f07a43e0ae13a4604db63e5e0f25bc37877dabc88ed6fb00ef9f1ead6",
       "active": true,
-      "lastTriggered": "2026-06-06T10:25:40.908Z",
+      "lastTriggered": "2026-06-12T05:11:20.921Z",
       "createdAt": "2026-06-06T10:25:35.603Z",
       "updatedAt": "2026-06-06T10:25:35.603Z"
     },
@@ -61,15 +48,6 @@
   ],
   "webhook_logs": [
     {
-      "id": "ee2387af-0fea-47ae-9f87-3697d55fc5c2",
-      "webhookId": "576fb6cd-83d1-4f54-925b-7e69a89bf4cf",
-      "event": "manual_trigger",
-      "payload": "{\"test\":true}",
-      "status": 404,
-      "response": "{\"code\":404,\"message\":\"The requested webhook \\\"autobrainy-leads\\\" is not registered.\",\"hint\":\"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)\"}",
-      "createdAt": "2026-06-06T10:23:40.098Z"
-    },
-    {
       "id": "9ae67c76-60a2-4f2e-ac42-35b2fceebcf3",
       "webhookId": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
       "event": "manual_trigger",
@@ -86,6 +64,33 @@
       "status": 200,
       "response": "{\"success\":true,\"message\":\"Lead saved successfully\"}",
       "createdAt": "2026-06-06T11:00:38.368Z"
+    },
+    {
+      "id": "9ac063b7-e1fc-43fa-a561-3363634fd900",
+      "webhookId": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
+      "event": "manual_trigger",
+      "payload": "{\"test\":true}",
+      "status": 200,
+      "response": "{\"success\":true,\"message\":\"Lead saved successfully\"}",
+      "createdAt": "2026-06-11T07:06:11.420Z"
+    },
+    {
+      "id": "9f8a4b80-b12b-4040-bc2f-a8da834443ee",
+      "webhookId": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
+      "event": "manual_trigger",
+      "payload": "{\"test\":true}",
+      "status": 200,
+      "response": "{\"success\":true,\"message\":\"Lead saved successfully\"}",
+      "createdAt": "2026-06-12T05:11:20.921Z"
+    },
+    {
+      "id": "067b76eb-54b7-4214-a54b-b00a448605fb",
+      "webhookId": "5505e74a-7efd-4eb9-a4a0-ccb823b88df8",
+      "event": "manual_trigger",
+      "payload": "{\"test\":true}",
+      "status": 404,
+      "response": "{\"code\":404,\"message\":\"The requested webhook \\\"POST autobrainy-leads\\\" is not registered.\",\"hint\":\"The workflow must be active for a production URL to run successfully. You can activate the workflow using the toggle in the top-right of the editor. Note that unlike test URL calls, production URL calls aren't shown on the canvas (only in the executions list)\"}",
+      "createdAt": "2026-06-13T05:25:11.121Z"
     }
   ],
   "whatsappSettings": {
